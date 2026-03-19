@@ -27,5 +27,21 @@ To write a Python program to implement a stack using a list and its built-in met
 ### PROGRAM
 
 ```
+# REGNO:-212222060019
+# name:-ARIGALA LAVANYA
+stack = []
+for i in range(5):
+    s=input()
+    stack.append(s)
+print("Stack before elements are popped")
+print(stack)
+stack.pop()
+stack.pop()
+print("\nStack after elements are popped:")
+print(stack)
 
 ```
+OUTPUT:
+<img width="768" height="370" alt="image" src="https://github.com/user-attachments/assets/2194a742-44f6-4bbd-b86a-87748f231a10" />
+RESULT:
+Thus a Python program to implement a stack using a list and its built-in methods (append(), pop()) has been executed succesfully.
